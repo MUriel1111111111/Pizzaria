@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cart│Pizzaria</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><img src="https://img.icons8.com/external-food-made-by-made/50/FFDB58/external-cuisine-takeout-food-made-by-made-6.png"/width="40 pixel" height="40 pixel">PIZZARIA<br><small>Premium Quality, Finest Ingredients</small></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="Add-to-cart.html" class="nav-link">Cart</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+      <h1 class="check-out-form">Checkout</h1>
+          <div class="rowA">
+             <div class="col-75">
+               <div class="CCNEr-1">
+                 <form action="/action_page.php">
+           
+                   <div class="rowA">
+                     <div class="col-50">
+                       <h3>Billing Address</h3>
+                       <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                       <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                       <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                       <input type="text" id="email" name="email" placeholder="john@example.com">
+                       <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                       <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                       <label for="city"><i class="fa fa-institution"></i> City</label>
+                       <input type="text" id="city" name="city" placeholder="New York">
+           
+                       <div class="rowA">
+                         <div class="col-50">
+                           <label for="state">State</label>
+                           <input type="text" id="state" name="state" placeholder="NY">
+                         </div>
+                         <div class="col-50">
+                           <label for="zip">Zip</label>
+                           <input type="text" id="zip" name="zip" placeholder="10001">
+                         </div>
+                       </div>
+                     </div>
+           
+                     <div class="col-50">
+                       <h3>Payment</h3>
+                       <label for="fname">Accepted Cards</label>
+                       <div class="icon-CCNEr-1">
+                         <i class="fa fa-cc-visa" style="color:navy;"></i>
+                         <i class="fa fa-cc-amex" style="color:blue;"></i>
+                         <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                         <i class="fa fa-cc-discover" style="color:orange;"></i>
+                       </div>
+                       <label for="cname">Name on Card</label>
+                       <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                       <label for="ccnum">Credit card number</label>
+                       <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                       <label for="expmonth">Exp Month</label>
+                       <input type="text" id="expmonth" name="expmonth" placeholder="September">
+           
+                       <div class="rowA">
+                         <div class="col-50">
+                           <label for="expyear">Exp Year</label>
+                           <input type="text" id="expyear" name="expyear" placeholder="2018">
+                         </div>
+                         <div class="col-50">
+                           <label for="cvv">CVV</label>
+                           <input type="text" id="cvv" name="cvv" placeholder="352">
+                         </div>
+                       </div>
+                     </div>
+           
+                   </div>
+                   <label>
+                     <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                   </label>
+                   <input type="submit" value="Continue to checkout" class="btn">
+                 </form>
+               </div>
+             </div>
+           
+             <div class="col-25">
+               <div class="CCNEr-1">
+                 <h4>Cart
+                   <span class="price" style="color:black">
+                     <i class="fa fa-shopping-cart"></i>
+                     <b>4</b>
+                   </span>
+                 </h4>
+                 <p><a href="#">Mexican</a> <span class="price">Price: ₱290</span></p>
+                 <p><a href="#">Pineapple</a> <span class="price">Price: ₱99</span></p>
+                 <p><a href="#">Bacon King</a> <span class="price">Price: ₱399</span></p>
+                 <hr>
+                 <p>Total <span class="price" style="color: rgb(255 255 255 / 90%);">₱848</span></p>
+               </div>
+             </div>
+           </div>
+       </body>
+    </html>
